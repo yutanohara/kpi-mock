@@ -12,7 +12,7 @@ export function KPIsView() {
       <div>
         <h2 className="text-2xl font-bold text-gray-900">KPI管理</h2>
         <p className="mt-1 text-sm text-gray-500">
-          KPIカテゴリとマスターKPIの管理
+          マスタKPIとKPIの管理
         </p>
       </div>
 
@@ -21,10 +21,10 @@ export function KPIsView() {
         <div className="col-span-12 bg-white rounded-lg shadow">
           <div className="p-4 border-b">
             <div className="flex items-center justify-between">
-              <h3 className="text-lg font-medium">KPIカテゴリ</h3>
+              <h3 className="text-lg font-medium">マスタKPI</h3>
               <button className="px-3 py-1 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 flex items-center">
                 <Plus className="h-4 w-4 mr-1" />
-                新規カテゴリ
+                新規マスタKPI
               </button>
             </div>
           </div>
@@ -67,7 +67,7 @@ export function KPIsView() {
         <div className="col-span-12 bg-white rounded-lg shadow">
           <div className="p-4 border-b">
             <div className="flex items-center justify-between">
-              <h3 className="text-lg font-medium">マスターKPI一覧</h3>
+              <h3 className="text-lg font-medium">KPI一覧</h3>
               <button
                 className="px-3 py-1 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 flex items-center"
                 disabled={!selectedCategory}
@@ -106,7 +106,7 @@ export function KPIsView() {
               </div>
             ) : (
               <div className="text-center py-8 text-gray-500">
-                カテゴリを選択してKPIを表示
+                マスタKPIを選択してKPIを表示
               </div>
             )}
           </div>

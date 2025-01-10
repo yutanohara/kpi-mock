@@ -5,22 +5,22 @@ export function DealsView() {
   return (
     <div>
       <div className="mb-6">
-        <h2 className="text-2xl font-bold text-gray-900">ディール管理</h2>
+        <h2 className="text-2xl font-bold text-gray-900">取引管理</h2>
         <p className="mt-1 text-sm text-gray-500">
-          ディールとKPIの関連付け
+          取引とKPIの関連付け
         </p>
       </div>
 
       <div className="bg-white shadow rounded-lg overflow-hidden">
         <div className="p-6">
           <div className="flex justify-between items-center mb-6">
-            <h3 className="text-lg font-medium">ディール一覧</h3>
+            <h3 className="text-lg font-medium">取引一覧</h3>
             <div className="flex space-x-3">
               <button className="px-4 py-2 bg-white border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
                 フィルター
               </button>
               <button className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
-                新規ディール
+                新規取引
               </button>
             </div>
           </div>
@@ -30,7 +30,7 @@ export function DealsView() {
               <thead className="bg-gray-50">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    ディール名
+                    取引名
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     シナリオ
